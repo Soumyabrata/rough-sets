@@ -1,5 +1,4 @@
 % Illustration for a rough set problem
-
 % Please refer the following link for details: https://github.com/Soumyabrata/rough-sets
 
 % =========================================================
