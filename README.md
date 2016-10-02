@@ -22,5 +22,11 @@ Run the script `Fig3.m`
 #### Table II
 Run the script `Table2.m`
 
+#### Table III
+Run the script `Table3.m`
+
+#### Figure 4
+Run the script `Fig4.m`
+
 #### Additional scripts
 A toy example to explain the concepts of rough set can be found in `rs_example.m`
