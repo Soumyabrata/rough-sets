@@ -3,7 +3,7 @@
 With the spirit of reproducible research, this repository contains all the codes required to generate figures and tables in the manuscript: S. Dev, F. M. Savoy, Y. H. Lee, S. Winkler, Rough-set Based Visible Color Channel Selection, *IEEE Geoscience and Remote Sensing Letters*, revised and resubmitted. 
 
 ## Authors
-* [Soumyabrata Dev](www3.ntu.edu.sg/home2012/soumyabr001/), Nanyang Technological University, Singapore
+* Soumyabrata Dev, Nanyang Technological University, Singapore
 * Florian M. Savoy, Advanced Digital Sciences Center, University of Illinois at Urbana-Champain, Singapore
 * Yee Hui Lee, Nanyang Technological University, Singapore
 * Stefan Winkler, Advanced Digital Sciences Center, University of Illinois at Urbana-Champain, Singapore
