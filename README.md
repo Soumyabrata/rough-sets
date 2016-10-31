@@ -8,6 +8,9 @@ With the spirit of reproducible research, this repository contains all the codes
 * Yee Hui Lee, Nanyang Technological University, Singapore
 * Stefan Winkler, Advanced Digital Sciences Center, University of Illinois at Urbana-Champain, Singapore
 
+### Manuscript
+The preprint version of this manuscript is `preprint.PDF`. 
+
 ### Code Organization
 All codes are written in MATLAB. 
 
