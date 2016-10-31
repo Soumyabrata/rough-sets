@@ -1,6 +1,6 @@
 # Rough-set Based Color Channel Selection
 
-With the spirit of reproducible research, this repository contains all the codes required to generate figures and tables in the manuscript: S. Dev, F. M. Savoy, Y. H. Lee, S. Winkler, Rough-set Based Visible Color Channel Selection, *IEEE Geoscience and Remote Sensing Letters*, revised and resubmitted. 
+With the spirit of reproducible research, this repository contains all the codes required to generate figures and tables in the manuscript: S. Dev, F. M. Savoy, Y. H. Lee, S. Winkler, Rough-set Based Visible Color Channel Selection, *IEEE Geoscience and Remote Sensing Letters*, accepted, 2016. 
 
 ## Authors
 * Soumyabrata Dev, Nanyang Technological University, Singapore
