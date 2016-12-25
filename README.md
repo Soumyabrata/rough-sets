@@ -26,7 +26,7 @@ The dataset used in this manuscript is HYTA dataset from Li et. al, A Hybrid Thr
 
 ### Rough-set functions
 * `indisc_att.m` Partitions the decision table based on indiscernibility of the attributes.
-* `positive_region.m` Generates the POSITIVE region for an attribute and its gamma-value.
+* `positive_region.m` Generates the positive region for an attribute and its gamma-value.
 
 ### Reproducibility
 In order to reproduce the figures and tables in the associated manuscript, please run the following scripts. The scripts: `Fig2.m`, `Fig3.m`, `Table2.m`, `Table3.m` and `Fig4.m` generates the various figures and tables of the manuscript. 
@@ -34,3 +34,12 @@ In order to reproduce the figures and tables in the associated manuscript, pleas
 ## Illustrative example to explain the various rough-set terminologies and definitions.
 Please run the script `roughSetIllustration.m` for the illustrative example.
  
+|          |   |   |   |
+|----------|---|---|---|
+| \(x^2 \) |   |   |   |
+|          |   |   |   |
+|          |   |   |   |
+|          |   |   |   |
+|          |   |   |   |
+|          |   |   |   |
+|          |   |   |   |
