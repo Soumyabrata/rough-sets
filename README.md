@@ -33,5 +33,3 @@ In order to reproduce the figures and tables in the associated manuscript, pleas
 
 ## Illustrative example to explain the various rough-set terminologies and definitions.
 Please run the script `roughSetIllustration.m` for the illustrative example.
- 
-This is some <sub>sub-script</sub> text. x<sub>1</sub>
