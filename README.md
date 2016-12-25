@@ -2,35 +2,26 @@
 
 With the spirit of reproducible research, this repository contains all the codes required to generate figures and tables in the manuscript: S. Dev, F. M. Savoy, Y. H. Lee, S. Winkler, Rough-set Based Visible Color Channel Selection, *IEEE Geoscience and Remote Sensing Letters*, accepted, 2016. 
 
-## Authors
-* Soumyabrata Dev, Nanyang Technological University, Singapore
-* Florian M. Savoy, Advanced Digital Sciences Center, University of Illinois at Urbana-Champain, Singapore
-* Yee Hui Lee, Nanyang Technological University, Singapore
-* Stefan Winkler, Advanced Digital Sciences Center, University of Illinois at Urbana-Champain, Singapore
-
-### Manuscript
+## Manuscript
 The preprint version of this manuscript is `preprint.PDF`. 
 
-### Code Organization
+## Code Organization
 All codes are written in MATLAB. 
 
+This entire repository is structured as follows. The folder `helperScripts` contains all the helper functions necessary for various tasks, the folder `preComputed` contains a few pre-computed results for reproducible purposes, and the folder `roughSetScripts` contains all the rough-set related scripts that can be used in any contexts.
+
+### Dataset
 The dataset used in this manuscript is HYTA dataset from Li et. al, A Hybrid Thresholding Algorithm for Cloud Detection on Ground-Based Color Images, *Journal of Atmospheric and Oceanic Technology*, 2011. Please contact the respective authors for the dataset.
 
-#### Figure 2
-Run the script `Fig2.m`
+### Helper functions
+* `accuracy.m` Calculates the Precision, Recall, F-score and Accuracy values for any binary thresholded image, when the corresponding binary ground-truth map is present. 
 
-#### Figure 3
-Run the script `Fig3.m`
+### Rough-set functions
+* `indisc_att.m` Partitions the decision table based on indiscernibility of the attributes.
 
-#### Table II
-Run the script `Table2.m`
+### Reproducibility
+In order to reproduce the figures and tables in the associated manuscript, please run the following scripts. The scripts: `Fig2.m`, `Fig3.m`, `Table2.m`, `Table3.m` and `Fig4.m` generates the various figures and tables of the manuscript. 
 
-#### Table III
-Run the script `Table3.m`
-
-#### Figure 4
-Run the script `Fig4.m`
-
-#### Additional scripts
-A toy example to explain the concepts of rough set can be found in `rs_example.m`
+## Illustrative example to explain the various rough-set terminologies and definitions.
+Please run the script `roughSetIllustration.m` for the illustrative example.
  
