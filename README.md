@@ -1,6 +1,6 @@
 # Rough-set Based Color Channel Selection
 
-With the spirit of reproducible research, this repository contains all the codes required to generate figures and tables in the manuscript: S. Dev, F. M. Savoy, Y. H. Lee, S. Winkler, Rough-set Based Visible Color Channel Selection, *IEEE Geoscience and Remote Sensing Letters*, accepted, 2016. 
+With the spirit of reproducible research, this repository contains all the codes required to produce the results in the manuscript: S. Dev, F. M. Savoy, Y. H. Lee, S. Winkler, Rough-set Based Visible Color Channel Selection, *IEEE Geoscience and Remote Sensing Letters*, accepted, 2016. 
 
 Please cite the above paper if you intend to use whole/part of the code. This code is only for academic and research purposes.
 
@@ -60,7 +60,6 @@ The partitions created by AGE attribute is:
    [2x1 double]  
    
 ```
-   
 The individual double vectors indicates the various partitions generated using AGE attribute, viz. [x<sub>1</sub>,x<sub>2</sub>,x<sub>6</sub>], [x<sub>3</sub>,x<sub>4</sub>] and [x<sub>5</sub>,x<sub>7</sub>].   
 
 Moreover, we can also compute the dependence value of an attribute with respect to the decision attribute. It is executed via `[POS_att , gamma_att] =  positive_region(dec_table , 1 , 3);` (described in `roughSetIllustration.m`). Here, `1` indicates the column number of the particular conditional attribute, and `3` indicates the column number of the decision attribute. 
