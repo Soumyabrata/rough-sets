@@ -2,6 +2,8 @@
 
 With the spirit of reproducible research, this repository contains all the codes required to generate figures and tables in the manuscript: S. Dev, F. M. Savoy, Y. H. Lee, S. Winkler, Rough-set Based Visible Color Channel Selection, *IEEE Geoscience and Remote Sensing Letters*, accepted, 2016. 
 
+Please cite the above paper if you intend to use whole/part of the code. This code is only for academic and research purposes.
+
 ## Manuscript
 The preprint version of this manuscript is `preprint.PDF`. 
 
@@ -33,3 +35,17 @@ In order to reproduce the figures and tables in the associated manuscript, pleas
 
 ## Illustrative example to explain the various rough-set terminologies and definitions.
 Please run the script `roughSetIllustration.m` for the illustrative example.
+
+Suppose there are 7 observations viz. x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, x<sub>4</sub>, x<sub>5</sub>, x<sub>6</sub> and x<sub>7</sub>. Each observation has two conditional attributes: AGE and LEMS, and one decision attribute: WALK. The decision attribute is binary in nature: 1 indicates TRUE and 0 indicates FALSE. 
+
+Let the decision table be as follows:
+
+|               	| AGE 	| LEMS 	| WALK 	|
+|:-------------:	|:---:	|:----:	|:----:	|
+| x<sub>1</sub> 	|  16 	|  50  	|   1  	|
+| x<sub>2</sub> 	|  16 	|   0  	|   0  	|
+| x<sub>3</sub> 	|  31 	|   1  	|   0  	|
+| x<sub>4</sub> 	|  31 	|   1  	|   1  	|
+| x<sub>5</sub> 	|  46 	|  26  	|   0  	|
+| x<sub>6</sub> 	|  16 	|  26  	|   1  	|
+| x<sub>7</sub> 	|  46 	|  26  	|   0  	|
