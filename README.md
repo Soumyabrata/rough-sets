@@ -53,10 +53,10 @@ Let the decision table be as follows:
 For example, the partition created by indiscernibility of the first attribute (AGE) is executed via `[IND_att1] =  indisc_att(dec_table , 1);` (described in `roughSetIllustration.m`). Here, `dec_table` is the matrix representing the decision table, and `1` indicates the column number of the particular conditional attribute.
 
 The generated output is as follows:
-`The partitions created by AGE attribute is:</br>
-   [3x1 double]
-   [2x1 double]
-   [2x1 double]`
+   `The partitions created by AGE attribute is:
+      [3x1 double]
+      [2x1 double]
+      [2x1 double]`
    
 The individual double vectors indicates the various partitions generated using AGE attribute, viz. `[x<sub>1</sub>,x<sub>2</sub>,x<sub>6</sub>]`, `[x<sub>3</sub>,x<sub>4</sub>]` and `[x<sub>5</sub>,x<sub>7</sub>]`.   
 
