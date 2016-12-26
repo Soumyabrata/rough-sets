@@ -57,7 +57,8 @@ The generated output is as follows:
 The partitions created by AGE attribute is:
    [3x1 double]
    [2x1 double]
-   [2x1 double]   
+   [2x1 double]  
+   
 ```
    
 The individual double vectors indicates the various partitions generated using AGE attribute, viz. `[x<sub>1</sub>,x<sub>2</sub>,x<sub>6</sub>]`, `[x<sub>3</sub>,x<sub>4</sub>]` and `[x<sub>5</sub>,x<sub>7</sub>]`.   
@@ -71,5 +72,7 @@ The observations that fall under positive region are:
    7
 The dependence value of the queried attribute w.r.t. decision attribute is:
    0.2857
+   
 ```.
+
 This indicates the observations x<sub>5</sub> and x<sub>7</sub>, and the corresponding dependence value of AGE attribute w.r.t. WALK attribute is 0.28.
