@@ -57,8 +57,7 @@ The generated output is as follows:
 The partitions created by AGE attribute is:
    [3x1 double]
    [2x1 double]
-   [2x1 double]
-   
+   [2x1 double]   
 ```
    
 The individual double vectors indicates the various partitions generated using AGE attribute, viz. `[x<sub>1</sub>,x<sub>2</sub>,x<sub>6</sub>]`, `[x<sub>3</sub>,x<sub>4</sub>]` and `[x<sub>5</sub>,x<sub>7</sub>]`.   
@@ -66,9 +65,11 @@ The individual double vectors indicates the various partitions generated using A
 Moreover, we can also compute the dependence value of an attribute with respect to the decision attribute. It is executed via `[POS_att , gamma_att] =  positive_region(dec_table , 1 , 3);` (described in `roughSetIllustration.m`). Here, `1` indicates the column number of the particular conditional attribute, and `3` indicates the column number of the decision attribute. 
 
 The generated output is as follows:
-`The observations that fall under positive region are:
+```
+The observations that fall under positive region are:
    5
    7
 The dependence value of the queried attribute w.r.t. decision attribute is:
-   0.2857`.
+   0.2857
+```.
 This indicates the observations x<sub>5</sub> and x<sub>7</sub>, and the corresponding dependence value of AGE attribute w.r.t. WALK attribute is 0.28.
