@@ -73,6 +73,6 @@ The observations that fall under positive region are:
 The dependence value of the queried attribute w.r.t. decision attribute is:
    0.2857
    
-```.
+```
 
 This indicates the observations x<sub>5</sub> and x<sub>7</sub>, and the corresponding dependence value of AGE attribute w.r.t. WALK attribute is 0.28.
