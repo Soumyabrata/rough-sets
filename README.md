@@ -36,7 +36,9 @@ In order to reproduce the figures and tables in the associated manuscript, pleas
 ## Illustrative example to explain the various rough-set terminologies and definitions.
 Please run the script `roughSetIllustration.m` for the illustrative example.
 
-Suppose there are 7 observations viz. x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, x<sub>4</sub>, x<sub>5</sub>, x<sub>6</sub> and x<sub>7</sub>. Each observation has two conditional attributes: AGE and LEMS, and one decision attribute: WALK. The decision attribute is binary in nature: 1 indicates TRUE and 0 indicates FALSE. 
+Suppose there are 7 observations viz. x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, x<sub>4</sub>, x<sub>5</sub>, x<sub>6</sub> and x<sub>7</sub>. Each observation has two conditional attributes: AGE and LEMS, and one decision attribute: WALK. The AGE indicates the age of the observation, and LEMS indicate Lower Extremity Motor Score of the observation (a higher LEMS value is conducive for walking). The decision attribute WALK is binary in nature: 1 indicates TRUE and 0 indicates FALSE - it indicates whether the person is able to walk or not.
+
+In this illustration, we will walk through the various common terminologies used in rough set theory. 
 
 Let the decision table be as follows:
 
